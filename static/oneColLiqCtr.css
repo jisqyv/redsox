@@ -1,0 +1,83 @@
+@charset "utf-8";
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	background: #993333;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	font-size: 0.9em;
+}
+.oneColLiqCtr #container {
+	width: 90%;  /* this will create a container 80% of the browser width */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColLiqCtr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+}
+
+h1 {
+	font: 100% Verdana, Helvetica, sans-serif;
+	line-height: 1.3em;
+	color:#d83820;
+	font-size: 1.7em; 
+	font-weight: bolder;
+    border-bottom: dotted;
+	margin: 10px 0;
+	padding: 0;
+}
+
+h2 {
+	line-height: 1.2em;
+	color:#000000;
+	font-size: 1.2em; 
+	font-weight: bold;
+	margin: 10px 0;
+	padding: 0;
+}
+
+ul {
+  margin-top: 1px;
+  padding: 5px;
+  }
+  
+li {
+  margin: 0px;
+  padding: 5px;
+  margin-left:15px;
+  list-style:disc;
+}
+
+.smallprint {
+	font-size: .85em;
+	font-weight: normal;
+}
+
+.combobutton {
+	background-color: #933;
+	border-color: #933;
+	color: #fff;
+}
+
+.responseRow:hover{
+	background-color:#E3E1C4;
+}
+
+.altRow {
+	background-color:#F5F5F5;
+}
+
+table {
+	margin-top: 16px;
+}
+
+.promo1 {
+  width: 225px;
+  float: right;
+margin-left: 10px;
+  padding: 10px 10px 15px 15px;
+  background-color: #FFCC66;
+}
